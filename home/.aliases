@@ -28,3 +28,6 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 
 # Increase open file limit
 alias ulimit10="ulimit -n 10000"
+
+# Start foreman
+alias fs="bundle exec foreman start"
